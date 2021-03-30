@@ -17,11 +17,11 @@ public class Calculadora{
 	
 	
 	  /*Construtor para setar o valor 0 caso o numero complexo seja criado porém não inializado*/
-	/*public Calculadora () 
+	public Calculadora () 
 	{
 	    this.real = 0;
 	    this.img = 0;
-	}*/
+	}
 	
 	  /*Método soma de complexos*/
 	public static Calculadora soma (Calculadora n1, Calculadora n2) 
