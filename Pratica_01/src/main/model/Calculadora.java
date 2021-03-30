@@ -2,8 +2,8 @@ package model;
 
 public class Calculadora{
 	
-	/*Classe onde È construido o objeto numero complexo, onde temos os atributos representado as
-	 * partes reais e imagin·rias desse numero complexo*/
+	/*Classe onde √© construido o objeto numero complexo, onde temos os atributos representado as
+	 * partes reais e imagin√°rias desse numero complexo*/
 	
 	private int real;	
 	private int img;
@@ -11,25 +11,25 @@ public class Calculadora{
 	/*Contrutor da classe que usa os parametros para atribuir valor aos atributos*/
 	public Calculadora (int real,int img)
 	{
-		this.real=5;
-		this.img=5;
+		this.real=real;
+		this.img=img;
 	}
 	
 	
-	  /*Construtor para setar o valor 0 caso o numero complexo seja criado porÈm n„o inializado*/
+	  /*Construtor para setar o valor 0 caso o numero complexo seja criado por√©m n√£o inializado*/
 	/*public Calculadora () 
 	{
 	    this.real = 0;
 	    this.img = 0;
 	}*/
 	
-	  /*MÈtodo soma de complexos*/
+	  /*M√©todo soma de complexos*/
 	public static Calculadora soma (Calculadora n1, Calculadora n2) 
 	{
 		return new Calculadora(n1.real+n2.real,n1.img+n2.img);
 	}
 	
-	/*MÈtodo para a escrita do n˙mero*/
+	/*M√©todo para a escrita do n√∫mero*/
 	public String toString()
 	{
 		return "(" + real + ", " + img + "i)";
