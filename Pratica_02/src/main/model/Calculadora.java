@@ -19,11 +19,11 @@ public class Calculadora{
 	
 	  /*Construtor para setar o valor 0 caso o numero complexo seja criado por�m n�o inializado*/
 
-	/*public Calculadora () 
+	public Calculadora () 
 	{
 	    this.real = 0;
 	    this.img = 0;
-	}*/
+	}
 	
 	  /*M�todo soma de complexos*/
 

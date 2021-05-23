@@ -9,7 +9,7 @@ public class Aplicacao{
 		Calculadora numsomanull2 = new Calculadora(-2,-2);
 		System.out.println(Calculadora.soma(numsomanull1, numsomanull2));
 		
-		/*soma com valores válidos dentro do range*/
+		/*soma com valores vï¿½lidos dentro do range*/
 		Calculadora numero1 = new Calculadora(2,5);
 		Calculadora numero2 = new Calculadora(7,3);
 		System.out.println(numero1);
@@ -21,8 +21,8 @@ public class Aplicacao{
 		Calculadora invalidacima2 = new Calculadora(12,13);
 		System.out.println(Calculadora.soma(invalidacima, invalidacima2));
 		
-		/*Criando um numero complexo sem inicialização dos atributos, valor padrao 0*/
-		/*Calculadora zerado = new Calculadora();
-		System.out.println(zerado);*/
+		/*Criando um numero complexo sem inicializaï¿½ï¿½o dos atributos, valor padrao 0*/
+		Calculadora zerado = new Calculadora();
+		System.out.println(zerado);
 	}
 }

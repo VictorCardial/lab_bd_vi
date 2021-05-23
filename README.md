@@ -12,3 +12,10 @@ Nessa atividade foi desenvolvido um projeto java com gradle na qual busca ilustr
 o método de desenvolvimento orientado a testes (TDD – Test Driven Development) e, também, a utilização 
 de ferramentas de build para obtenção de dependências, execução de sistemas e execução de casos de teste.
 ```
+
+* Pratica_02
+
+```
+Nessa atividade foi desenvolvido um projeto java com gradle utilizando o metodo 
+(TDD – Test Driven Development) com análise de valores limites.
+```
